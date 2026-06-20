@@ -216,3 +216,28 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+=======
+# 原始数据文件不上传
+data/raw/*
+data/processed/*
+
+# 保留文件夹结构
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# Jupyter 临时文件
+.ipynb_checkpoints/
+
+# 系统文件
+.DS_Store
+
+# 大文件
+*.csv
+*.zip
+*.tar
+*.gz
+
